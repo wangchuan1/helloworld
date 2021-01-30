@@ -1,0 +1,12 @@
+Python写得素数打印函数，很简单的
+
+a =1000000
+i = 2
+while(i < a):
+   j = 2
+   while j <= (i/j) :
+      if not(i%j): break
+      j = j + 1
+   if (j > i/j) :
+       print(i, " 是素数")
+   i = i + 1
